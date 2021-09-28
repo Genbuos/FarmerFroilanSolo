@@ -2,5 +2,8 @@ package mcfroilan;
 
 public abstract class Crop {
 
-    public Crop()
+    public Crop(){
+
+    }
+
 }

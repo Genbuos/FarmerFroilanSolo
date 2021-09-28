@@ -1,13 +1,10 @@
 package mcfroilan;
 
-public abstract class Aircraft {
-    public int modelNo;
-    public String modelName;
+public abstract class Aircraft extends vehicle {
+    public boolean fly;
 
 
-    public Aircraft(String modelName, int modelNo){
-        this.modelName = modelName;
-        this.modelNo = modelNo;
-    }
+
+    public abstract boolean canFly();
 
 }
